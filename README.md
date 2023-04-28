@@ -6,5 +6,5 @@ Times related to my working hours are highlighted.
 
 Using: http://api.aladhan.com/
 
-Calculation method: Institute of Geophysics, University of Tehran\n
+Calculation method: Institute of Geophysics, University of Tehran   
 Midnight mode: Jafari
