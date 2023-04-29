@@ -5,8 +5,9 @@ import sys
 from datetime import date
 import requests
 from art import tprint
+from persiantools.jdatetime import JalaliDate
 
-SCRIPT_VERSION = '3.1.1'
+SCRIPT_VERSION = '3.2'
 WINDOW_TITLE = f"Islamic Prayer Times by DLord (version {SCRIPT_VERSION})"
 
 
@@ -43,7 +44,9 @@ if __name__ == '__main__':
             "http://api.aladhan.com/v1/timingsByAddress?address=Tajrish%2C+Tehran%2C+Iran&method=7&midnightMode=1", timeout=10)
         response.raise_for_status()
         timings = response.json()['data']['timings']
-        print('Azan times for: ', get_date())
+        todayJ = str([JalaliDate.today()])[12:-2]
+        print('Azan times for: ', get_date(), ' -',
+            '\033[1;91m', todayJ, '\033[0m')
         print(
             f"\nAzan Sobh: \033[1m{timings['Fajr']}\033[0m\nSunrise: \033[1m{timings['Sunrise']}\033[0m\nAzan Zohr: \033[1;46m{timings['Dhuhr']}\033[0m\nAzan Asr: \033[1;46m{timings['Asr']}\033[0m\nSunset: \033[1m{timings['Sunset']}\033[0m\nAzan Maghreb: \033[1;46m{timings['Maghrib']}\033[0m\nAzan Ashaa: \033[1;46m{timings['Isha']}\033[0m\nMidnight: \033[1m{timings['Midnight']}\033[0m")
         ascii_art()
