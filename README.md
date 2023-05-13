@@ -1,7 +1,7 @@
 # Islamic-Prayer-Times
 ### Islamic prayer and related times for Tehran (Tajrish), Iran.
 
-A simple terminal app to show today's Islamic prayer and related times for Tehran (Tajrish), Iran.    
+A simple Python script (terminal app) to show today's Islamic prayer and related times for Tehran (Tajrish), Iran.    
 _Prayer times related to my working hours are highlighted._    
 * Using: http://api.aladhan.com/  
 * Calculation method: Institute of Geophysics, University of Tehran     
