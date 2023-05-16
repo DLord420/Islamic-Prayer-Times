@@ -9,6 +9,8 @@ _Prayer times related to my working hours are highlighted._
 * Using: http://api.aladhan.com/  
 * Calculation method: Institute of Geophysics, University of Tehran     
 * Midnight mode: Jafari  
-
+    
+-----
 Many thanks to sepandhaghighi for the [**_ASCII Art Library for Python_**](https://github.com/sepandhaghighi/art)   
+Binary built using [**_Auto PY to EXE_**](https://github.com/brentvollebregt/auto-py-to-exe)
 
