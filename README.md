@@ -1,4 +1,4 @@
-![Settings Window](https://github.com/DLord420/Islamic-Prayer-Times/blob/main/Screenshot%20.png)   
+![Settings Window](https://github.com/DLord420/Islamic-Prayer-Times/blob/main/Screenshot.png)   
 
 # Islamic-Prayer-Times
 ## Original CLI version of: [**_Islamic-Prayer-Times_GUI_**](https://github.com/DLord420/Islamic-Prayer-Times_GUI)   
