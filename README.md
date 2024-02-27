@@ -4,7 +4,7 @@
 ## Original CLI version of: [**_Islamic-Prayer-Times_GUI_**](https://github.com/DLord420/Islamic-Prayer-Times_GUI)   
 ### Islamic prayer and related times for Tehran (Tajrish), Iran.
 
-A simple Python script (terminal app) to show today's Islamic prayer and related times for Tehran (Tajrish), Iran (Note:you can easily change the location in the script).  Born out of personal necessity.       
+A simple Python script (terminal app) to show today's Islamic prayer and related times for Tehran (Tajrish), Iran (you can easily change the location in the script).  Born out of personal necessity.       
 _Prayer times related to my working hours are highlighted._    
 * Using: http://api.aladhan.com/  
 * Calculation method: Institute of Geophysics, University of Tehran     
