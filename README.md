@@ -2,7 +2,7 @@
 
 # Islamic-Prayer-Times  <div dir= "rtl">  اوقات شرعی
 ## Original CLI version of: [**_Islamic-Prayer-Times_GUI_**](https://github.com/DLord420/Islamic-Prayer-Times_GUI)   
-### Islamic prayer and related times for Tehran (Tajrish), Iran.
+### Islamic prayer and related times.
 
 A simple Python script (terminal app) to show today's Islamic prayer and related times for a given location.  Born out of personal necessity.       
 _Prayer times related to my working hours are highlighted._    
