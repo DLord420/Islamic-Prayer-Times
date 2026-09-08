@@ -1,8 +1,10 @@
-![Settings Window](https://github.com/DLord420/Islamic-Prayer-Times/blob/main/Screenshot.png)   
+<p align="center">
+  <img src="screenshot.png" alt="Settings Window" width="600">
+</p>   
 
-# Islamic-Prayer-Times  <div dir= "rtl">  اوقات شرعی
-## Original CLI version of: [**_Islamic-Prayer-Times_GUI_**](https://github.com/DLord420/Islamic-Prayer-Times_GUI)   
-### Islamic prayer and related times.
+## Islamic-Prayer-Times  <div dir= "rtl">  اوقات شرعی
+### Original CLI version of: [**_Islamic-Prayer-Times_GUI_**](https://github.com/DLord420/Islamic-Prayer-Times_GUI)   
+#### Islamic prayer and related times.
 
 A simple Python script (terminal app) to show today's Islamic prayer and related times for a given location.  Born out of personal necessity.       
 _Prayer times related to my working hours are highlighted._    
